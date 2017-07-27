@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+    
+  <title> GWC SIP Portfolio </title>
+
+  <style>
+    body{
+        background-color: powderblue;
+        margin-left: 200px;
+        background-image: url("images/gwx_bg.jpeg");
+        background-position: left top;
+        background-repeat: repeat-y;
+        background-size: 14%;
+    }
+    img{
+        border: black 2px solid;
+        float: right;
+    }
+    nav{
+        margin-left: 200px;
+    }
+    h1{
+        color: white;
+        size: 75%;
+        text-align: center;
+    }
+    h1, h2, b{
+        font-family: 'Lobster', cursive;
+    }
+    p, nav{
+        font-family: 'Raleway', sans-serif;
+    }
+    h2, p{
+        margin-left: 10px;
+    }
+    a:link{
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover{
+        color: darkgreen;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    a:active{
+        color: deeppink;
+        background-color: transparent;
+        text-decoration: none; 
+    }
+    a:visited{
+        color: black;
+        background-color: transparent;
+        text-decoration: none;   
+    }
+    button{
+        background-color: black;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px; 
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;      
+    }
+    footer{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+    }
+  </style>
+    
+    <script>
+    function hide_bio() {
+        var x = document.getElementById('hidden_bio');
+        if (x.style.display === 'none'){
+            x.style.display = 'block';
+        } 
+        else{
+            x.style.display = 'none';
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+  <h1> Juliana Parra's Girls Who Code Portfolio </h1>
+  <nav>
+    <ul>
+        <img src="images/me.png" alt="photo of me" style="width: 250px; height: 175px;">
+        <li><a href="wk1.html"> Week 1: Scratch </a></li>
+        <li><a href="wk2.html"> Week 2: HTML, CSS & Python </a></li>
+        <li><a href="wk3.html"> Week 3: The Internet, JavaScript & Django </a></li>
+        <li><a href="wk4.html"> Week 4: Robotics </a></li>
+        <li><a href="wk5.html"> Week 5: Data Science, Algorithms & Social Networking </a></li>
+        <li><a href="extras.html"> Extra Experiences: Field Trips and Speakers </a></li>
+        <li><a href="final.html"> My Final Project </a></li>
+        <li><a href="takeaways.html"> My Takeaways </a></li>
+    </ul> 
+  </nav>
+  <h2> About Me </h2>
+    
+    <button onClick="hide_bio()"> Click to see more about me! </button>
+    <div id= "hidden_bio">
+    <p> <b> My Bio: </b> My name is Juliana Ruby Parra and I am a rising junior
+    at Wootton High School in Maryland. I love swimming, reading, photography, music,
+    typography and calligraphy, graphic design, and 
+    web development! I'm also ethnically mixed as well as gay so LGBTQAI+,
+    feminine, and ethnic issues are very important to me. </p>
+    <p> <b> Likes and Dislikes: </b> My music taste definitely varies but I tend
+    to lean towards jazz and chill pop/hip hop. The only music genre I
+    really dislike is country. My favorite types of food are Dim Sum, Pho, Sushi, and Mediterranean.
+    Academically, I love my English and Spanish classes but not my math and science classes. I wish I did!
+    <p> <b> Fun Fact: </b> I lived in Asia (Hong Kong and Bangkok, Thailand)
+    until I was 6. I want to live abroad for my career, preferably in a Spanish-speaking country. Right now, I'm considering a gap year abroad
+    between high school and college! :) </p>
+    <p> <b> My Favorite Websites: </b> 
+        <a href="https://open.spotify.com/user/julianarparra/playlist/1jBN7Nqur5SifQADUcwsCf" target="_blank"> This is my happy playlist on Spotify! I use Spotify every day, several times a day. Music is pretty much my entire life. </a> 
+        <br/>
+        <a href= "http://reachforthewall.com/" target="_blank"> Reach for the Wall is a swim blog I use all the time to track my competitors' times - all I have to do is search their name! :) </a>
+        <br/>
+        <a href="https://www.tumblr.com/" target="_blank"> Tumblr is my favorite social media site- I mainly use it for fashion inspiration. </a>
+    </p>
+    </div>
+    <img src="images/swim.jpg" alt="swimming butterfly" style="width: 250px; height: 150px; margin-right: 100px; margin-bottom: 100px; margin-left: 50px;">
+    
+<h2> Portfolio Reflection </h2>
+    <p> I tried to add spoken explanations for my photos to make the site more accessible for the visually impaired/blind but I'm not sure if they're any better than captions. Caroline and Caylenne's websites were my favorites because they had really cute and funny themes and seemed really well planned out. I love coding in HTML so the entire experience of creating this portfolio was super fun for me! With that said, positioning of pictures within pages always seems to give me a hard time so that's what I'm most proud of in my site. </p>
+
+<footer>
+    <hr>
+    Juliana Parra | juli.parra99@gmail.com | Girls Who Code Summer 2017
+</footer>
+</body>
+    
+</html>
